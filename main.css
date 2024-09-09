@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+input,
+textarea,
+button,
+h1,
+h2 {
+    display: block;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: 16px;
+    height: 32px;
+    width: 370px;
+}
+
+h1 {
+    margin-top: 24px;
+}
+
+button {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(84, 163, 84);
+    color: #fff;
+    cursor: pointer;
+}
+
+form textarea {
+    resize: none;
+    height: 60px;
+}
+
+button:hover {
+    background-color: rgb(62, 138, 62);
+}
